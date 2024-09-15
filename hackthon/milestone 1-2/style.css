@@ -1,0 +1,171 @@
+@media (max-width: 600px) {
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .body {
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .resume-container {
+        width: 100%;
+        /* Full width for mobile */
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 80px;
+    height: auto;
+
+
+    background-image: linear-gradient(#636162, #b2afaf);
+    height: 122vh;
+    font-weight: bold;
+
+
+
+
+}
+
+.heading {
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #fbb03b;
+    text-align: left;
+
+}
+
+.heading2 {
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #fbb03b;
+    text-align: left;
+
+
+}
+
+
+
+.resume-container {
+
+    width: 80%;
+    /* Use percentage instead of fixed pixel width */
+
+
+
+
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.left-section {
+    background-color: #fbb03b;
+    ;
+    color: white;
+    padding: 30px;
+    width: 35%;
+    text-align: center;
+    border-right: px solid #e63946;
+    float: left;
+
+
+}
+
+
+.profile-img {
+    background-color: #ddd;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #b2afaf;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 6px 7px 9px 5px #07040073;
+
+}
+
+
+
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+
+    background-color: #fbb03b;
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #4d4d4d;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #4d4d4d;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+
+    background-color: #fbb03b;
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #4d4d4d;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #4d4d4d;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    border-color: #fbb03b;
+    text-align: left;
+    max-width: 500px;
+
+}
+
+button:hover {
+    background-color: #68fb3b;
+}
